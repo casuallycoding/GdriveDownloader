@@ -20,8 +20,7 @@ SCOPES = ['https://www.googleapis.com/auth/documents.readonly','https://www.goog
 DOCUMENT_ID = '1H2VA9MvMdh96DwSGjN_ecEbxlgCm0STdK_KPxigx8Ag' 
 
 def main():
-    """Shows basic usage of the Docs API.
-    Prints the title of a sample document.
+    """Shows basic usage of the drive API. Downloads a document based on the DocumentID above and iterates through all of the metadata in the share.
     """
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
